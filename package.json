@@ -1,4 +1,21 @@
 {
+    "name": "mysql-sequelize-heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Michelle Poplin",
+    "License": "MIT",
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "express": "^4.13.4",
+        "express-handlebars": "^3.0.0",
+        "mysql": "^2.10.2"
+    }
+}
+{
     "name": "friend-finder",
     "version": "1.0.0",
     "description": "",
@@ -21,5 +38,5 @@
         "express": "^4.16.4",
         "path": "^0.12.7",
         "popper": "^1.0.1"
-    }
-}
+    },
+},

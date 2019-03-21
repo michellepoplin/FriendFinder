@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>The Friend Finder Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="surveyContainer">
+                    <h2>
+                        Survey Questions
+                    </h2>
+                    <hr>
+                    <form>
+                        <div>
+                            <h4><strong>About You</strong></h4>
+                            <h5>Name (required)</h5>
+                            <input type="text" id="name" class="control-form">
+                            <h5>Link to Photo Image (required)</h5>
+                            <input type="text" id="imageLink" class="control-form">
+                        </div>
+                        <hr>
+                        <div>
+                            <h4><strong>Question 1</strong></h4>
+                            <h5>I like Gallery & Bar Crawls</h5>
+                            <select class="custom-select mr-sm-2" id="question1">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 2</strong></h4>
+                            <h5>I like "nerdy" and "geeky" stuff</h5>
+                            <select class="custom-select mr-sm-2" id="question2">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 3</strong></h4>
+                            <h5>I love being the center of attention.</h5>
+                            <select class="custom-select mr-sm-2" id="question3">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 4</strong></h4>
+                            <h5>I prefer being alone with a special someone to being in a crowd.</h5>
+                            <select class="custom-select mr-sm-2" id="question4">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 5</strong></h4>
+                            <h5>I rarely say how I truly feel to avoid confontation.</h5>
+                            <select class="custom-select mr-sm-2" id="question5">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 6</strong></h4>
+                            <h5>I make friends easily.</h5>
+                            <select class="custom-select mr-sm-2" id="question6">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 7</strong></h4>
+                            <h5>I think of myself as a positive person.</h5>
+                            <select class="custom-select mr-sm-2" id="question7">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 8</strong></h4>
+                            <h5>I admit to sometimes being a "button" pusher.</h5>
+                            <select class="custom-select mr-sm-2" id="question8">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 9</strong></h4>
+                            <h5>It doesn't bother me when people overreact.</h5>
+                            <select class="custom-select mr-sm-2" id="question9">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h4><strong>Question 10</strong></h4>
+                            <h5>People that know me would say that I am a softie.</h5>
+                            <select class="custom-select mr-sm-2" id="question10">
+                                <option value="1" href="#">1 (Strongly Disagree)</option>
+                                <option value="2" href="#">2</option>
+                                <option value="3" href="#">3</option>
+                                <option value="4" href="#">4</option>
+                                <option value="5" href="#">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <button type="submit" id="submit" class="btn btn-primary btn-lg btn btn-block" value="submit">
+                                <span class="fa fa-check"></span>
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="results-modal" class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="friendName"></h2>
+                    <img id="friendImg" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="links">
+        API Friends list | Github Repo
+    </div>
+
+    <script src="js/survey.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+#friendImg {
+    max-height: 400px !important;
+    padding-left: 35px !important;
+}
+
+.modal-header {
+    display: none !important;
+}

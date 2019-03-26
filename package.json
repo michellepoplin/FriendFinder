@@ -1,27 +1,19 @@
 {
-    "name": "mysql-sequelize-heroku",
+    "name": "friend-finder",
     "version": "1.0.0",
-    "description": "",
+    "description": "a friend-finding app",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "debug": "DEBUG=friend-finder:* node server.js",
+        "watch": "DEBUG=friend-finder:* nodemon -e js -w app server.js"
     },
-    "author": "Michelle Poplin",
-    "License": "MIT",
     "dependencies": {
         "body-parser": "^1.15.0",
         "express": "^4.13.4",
         "express-handlebars": "^3.0.0",
         "mysql": "^2.10.2"
-    }
-}
-{
-    "name": "friend-finder",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -29,14 +21,17 @@
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/michellepoplin/FriendFinder/issues"
     },
     "homepage": "https://github.com/michellepoplin/FriendFinder#readme",
-    "dependencies": {
-        "express": "^4.16.4",
-        "path": "^0.12.7",
-        "popper": "^1.0.1"
-    },
-},
+    "devDependencies": {
+        "eslint": "^5.10.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^8.0.0",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0"
+    }
+}

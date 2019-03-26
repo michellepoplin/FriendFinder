@@ -110,5 +110,53 @@
             5,
             5
         ]
+    },
+    {
+        "name": "Michelle Poplin",
+        "photo": "https://unsplash.com/photos/8qiBIM2YA3s",
+        "scores": [
+            3,
+            5,
+            3,
+            2,
+            2,
+            4,
+            4,
+            1,
+            1,
+            4
+        ]
+    },
+    {
+        "name": "Michelle Poplin",
+        "photo": "https://unsplash.com/photos/8qiBIM2YA3s",
+        "scores": [
+            3,
+            5,
+            3,
+            2,
+            2,
+            4,
+            4,
+            1,
+            1,
+            4
+        ]
+    },
+    {
+        "name": "Michelle Poplin",
+        "photo": "https://unsplash.com/photos/8qiBIM2YA3s",
+        "scores": [
+            3,
+            5,
+            4,
+            2,
+            3,
+            5,
+            5,
+            1,
+            2,
+            5
+        ]
     }
 ]

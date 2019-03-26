@@ -1,6 +1,6 @@
 # FriendFinder
 
-Heroku Deployed Link : https://warm-brushlands-26226.herokuapp.com/
+Heroku Deployed Link : https://.herokuapp.com/
 
 Friend finder is an application that takes in information from a survey to best match it with a similar one submitted by someone else.
 
